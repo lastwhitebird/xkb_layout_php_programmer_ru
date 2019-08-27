@@ -24,7 +24,7 @@ xkb_symbols "basic" {
     key <AD12> {	[     apostrophe,  quotedbl	]	};
 
     key <AC01> {	[	  f,	F 		]	};
-    key <AC02> {	[	  y,	Y		]	};
+    key <AC02> {	[	  y,	Y, question		]	};
     key <AC03> {	[	  w,	W		]	};
     key <AC04> {	[	  a,	A,  at		]	};
     key <AC05> {	[	  p,	P,  plus,   percent		]	};
