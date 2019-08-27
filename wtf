@@ -1,0 +1,51 @@
+default  partial alphanumeric_keys modifier_keys
+xkb_symbols "basic" {
+
+    name[Group1]= "English (PHP)";
+    include "us(basic)"
+
+    key <AE02> {	[	  2,	quotedbl		]	};
+    key <AE03> {	[	  3,	numbersign	]	};
+    key <AE04> {	[	  4,	semicolon		]	};
+    key <AE06> {	[	  6,	colon	]	};
+    key <AE07> {	[	  7,	question 	]	};
+
+    key <AD01> {	[	  j,	J,  exclam 		]	};
+    key <AD02> {	[	  c,	C,  numbersign		]	};
+    key <AD03> {	[	  u,	U,  underscore		]	};
+    key <AD04> {	[	  k,	K,  numbersign		]	};
+    key <AD05> {	[	  e,	E,  equal		]	};
+    key <AD06> {	[	  n,	N,  ampersand		]	};
+    key <AD07> {	[	  g,	G,  greater		]	};
+    key <AD08> {	[	  bracketleft,	braceleft, parenleft, less	]	};
+    key <AD09> {	[	  bracketright, braceright, parenright, greater	]	};
+    key <AD10> {	[	  z,	Z, semicolon		]	};
+    key <AD11> {	[ 	  h,    H   ]	}; 
+    key <AD12> {	[     apostrophe,  quotedbl	]	};
+
+    key <AC01> {	[	  f,	F 		]	};
+    key <AC02> {	[	  y,	Y		]	};
+    key <AC03> {	[	  w,	W		]	};
+    key <AC04> {	[	  a,	A,  at		]	};
+    key <AC05> {	[	  p,	P,  plus,   percent		]	};
+    key <AC06> {	[	  r,	R		]	};
+    key <AC07> {	[	  o,	O,  bar		]	};
+    key <AC08> {	[	  l,	L,  less,   XF86LaunchA		]	};
+    key <AC09> {	[	  d,	D,  dollar, XF86LaunchB		]	};
+    key <AC10> {	[     v,	V		]	};
+    key <AC11> {	[     semicolon,    colon	]	};
+
+    key <AB01> {	[	  q,	Q,  quotedbl,   question 		]	};
+    key <AB02> {	[	  minus, equal	]	};
+    key <AB03> {	[	  s,	S,  slash		]	};
+    key <AB04> {	[	  m,	M,  minus,  asterisk		]	};
+    key <AB05> {	[	  i,	I		]	};
+    key <AB06> {	[	  t,	T,  asciitilde, grave		]	};
+    key <AB07> {	[	  x,	X,  asciicircum		]	};
+    key <AB08> {	[     b ,	B,   backslash		]	};
+    key <AB09> {	[     greater, greater  	]	};
+    key <AB10> {	[     period,  comma,  semicolon, colon	]	};
+
+    key <BKSL> {	[  backslash,  slash	]	};
+    key <SPCE> {    [   space,  space,  underscore, nobreakspace ] };
+};
