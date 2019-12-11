@@ -25,13 +25,13 @@ xkb_symbols "basic" {
 
     key <AC01> {	[	  f,	F 		]	};
     key <AC02> {	[	  y,	Y, question		]	};
-    key <AC03> {	[	  w,	W		]	};
+    key <AC03> {	[	  w,	W, colon		]	};
     key <AC04> {	[	  a,	A,  at		]	};
     key <AC05> {	[	  p,	P,  plus,   percent		]	};
     key <AC06> {	[	  r,	R		]	};
     key <AC07> {	[	  o,	O,  bar		]	};
-    key <AC08> {	[	  l,	L,  less,   XF86LaunchA		]	};
-    key <AC09> {	[	  d,	D,  dollar, XF86LaunchB		]	};
+    key <AC08> {	[	  l,	L,  less		]	};
+    key <AC09> {	[	  d,	D,  dollar		]	};
     key <AC10> {	[     v,	V		]	};
     key <AC11> {	[     semicolon,    colon	]	};
 
